@@ -4,6 +4,7 @@
   "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
   "main": "index.js",
   "scripts": {
+    "vercel-build":"npm run build",
     "build": "webpack",
     "dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
